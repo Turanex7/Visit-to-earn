@@ -1,0 +1,242 @@
+{
+  "app": {
+    "name": "Visit-to-Earn",
+    "tagline": "Muzeyi oyna. Tarixi qazan.",
+    "desktopHint": "Ən yaxşı təcrübə üçün telefonda aç"
+  },
+  "common": {
+    "continue": "Davam et",
+    "skip": "Keç",
+    "back": "Geri",
+    "later": "Sonra",
+    "close": "Bağla",
+    "retry": "Yenidən cəhd et",
+    "loading": "Yüklənir…",
+    "or": "və ya",
+    "more": "Ətraflı",
+    "step": "Addım {{current}}/{{total}}",
+    "comingSoon": "Tezliklə",
+    "error": "Nəsə səhv getdi. İnternet bağlantını yoxla və yenidən cəhd et.",
+    "notFoundTitle": "Bu səhifə tapılmadı",
+    "notFoundText": "Görünür, xəritədə olmayan bir yerə düşmüsən.",
+    "goHome": "Ana səhifəyə qayıt"
+  },
+  "levels": {
+    "newbie": "Yeni Gəzgin",
+    "explorer": "Kəşfiyyatçı",
+    "hunter": "Tarix Ovçusu",
+    "hero": "Mədəniyyət Qəhrəmanı",
+    "elder": "Muzey Ağsaqqalı",
+    "levelUp": "Yeni səviyyə! İndi sən {{level}}-ci səviyyədəsən"
+  },
+  "nav": {
+    "label": "Əsas naviqasiya",
+    "home": "Ana",
+    "map": "Xəritə",
+    "scan": "Skan",
+    "league": "Liqa",
+    "profile": "Profil"
+  },
+  "hud": {
+    "level": "Səviyyə {{level}}",
+    "xp": "{{xp}} / {{max}} XP",
+    "streak": "{{count}} günlük seriya",
+    "notifications": "Bildirişlər",
+    "unread": "Oxunmamış bildirişlər var",
+    "profile": "Profilə keç",
+    "guest": "Qonaq rejimi",
+    "register": "Qeydiyyat"
+  },
+  "guestGate": {
+    "title": "Qeydiyyatdan keç",
+    "text": "QR skan etmək, XP və kolleksiya qazanmaq üçün hesab yarat. Cəmi bir dəqiqə çəkir — qonaq kimi gördüklərin itməyəcək.",
+    "cta": "Qeydiyyatdan keç",
+    "login": "Artıq hesabım var"
+  },
+  "validation": {
+    "required": "Bu xananı doldur",
+    "name": "Ad və soyadını tam yaz",
+    "email": "Düzgün email ünvanı yaz",
+    "username": "3–20 simvol: kiçik latın hərfləri, rəqəm və _",
+    "passwordMin": "Şifrə ən azı 8 simvol olmalıdır",
+    "passwordMatch": "Şifrələr uyğun gəlmir",
+    "terms": "Davam etmək üçün şərtlərlə razılaşmalısan"
+  },
+  "splash": {
+    "loading": "Tətbiq açılır"
+  },
+  "onboarding": {
+    "slide1Title": "Xəritəni kəşf et",
+    "slide1Text": "Bakının muzeyləri quest pinləri ilə dolub — ən yaxınını tap.",
+    "slide2Title": "Eksponatı tap, QR-u skan et",
+    "slide2Text": "İpucunu izlə, gizli eksponatı tap və kodu skan et.",
+    "slide3Title": "XP qazan, kolleksiya topla",
+    "slide3Text": "Hər quest səni gücləndirir və nadir rəqəmsal əşyalar gətirir.",
+    "slide4Title": "Universitetini liqada birinci et",
+    "slide4Text": "Dostlarınla birlikdə xal topla və aylıq liqanın zirvəsinə çıx.",
+    "start": "Başla",
+    "haveAccount": "Artıq hesabım var",
+    "goTo": "{{n}}-ci slayda keç",
+    "slides": "Tanışlıq slaydları"
+  },
+  "auth": {
+    "login": {
+      "title": "Xoş gəldin, qəhrəman!",
+      "subtitle": "Macəranı davam etdirmək üçün daxil ol.",
+      "identifier": "Email və ya istifadəçi adı",
+      "identifierPlaceholder": "aysel və ya aysel@mail.az",
+      "password": "Şifrə",
+      "forgot": "Şifrəni unutdun?",
+      "submit": "Daxil ol",
+      "google": "Google ilə davam et",
+      "guest": "Qonaq kimi davam et",
+      "noAccount": "Hesabın yoxdur?",
+      "register": "Qeydiyyatdan keç",
+      "invalid": "Email/istifadəçi adı və ya şifrə yanlışdır",
+      "demoHint": "Demo hesab",
+      "demoFill": "Doldur"
+    },
+    "password": {
+      "show": "Şifrəni göstər",
+      "hide": "Şifrəni gizlət"
+    },
+    "register": {
+      "title": "Qəhrəmanını yarat",
+      "subtitle": "Hesab aç və ilk questinə hazırlaş.",
+      "name": "Ad Soyad",
+      "namePlaceholder": "Aysel Məmmədova",
+      "username": "İstifadəçi adı",
+      "usernamePlaceholder": "aysel_2026",
+      "usernameChecking": "Yoxlanılır…",
+      "usernameAvailable": "Bu ad boşdur",
+      "usernameTaken": "Bu istifadəçi adı artıq tutulub",
+      "email": "Email",
+      "emailPlaceholder": "aysel@mail.az",
+      "emailTaken": "Bu email ilə artıq hesab var",
+      "password": "Şifrə",
+      "confirm": "Şifrə təkrarı",
+      "strength": "Şifrənin gücü: {{label}}",
+      "strength0": "Çox zəif",
+      "strength1": "Zəif",
+      "strength2": "Orta",
+      "strength3": "Yaxşı",
+      "strength4": "Güclü",
+      "terms": "İstifadə şərtləri ilə razıyam",
+      "submit": "Davam et",
+      "haveAccount": "Artıq hesabın var?",
+      "login": "Daxil ol"
+    },
+    "forgot": {
+      "title": "Şifrəni bərpa et",
+      "text": "Hesabına bağlı email ünvanını yaz — sənə yeni şifrə təyin etmək üçün link göndərəcəyik.",
+      "email": "Email",
+      "submit": "Link göndər",
+      "sentTitle": "Linki emailə göndərdik",
+      "sentText": "{{email}} ünvanını yoxla. Məktub görünmürsə, spam qovluğuna da bax.",
+      "backToLogin": "Girişə qayıt",
+      "demoReset": "Demo: sıfırlama səhifəsini aç"
+    },
+    "reset": {
+      "title": "Yeni şifrə təyin et",
+      "text": "Yeni şifrəni yaz və təsdiqlə.",
+      "password": "Yeni şifrə",
+      "confirm": "Yeni şifrə təkrarı",
+      "submit": "Şifrəni yenilə",
+      "success": "Şifrən yeniləndi. İndi daxil ola bilərsən."
+    }
+  },
+  "setup": {
+    "university": {
+      "title": "Universitetini seç",
+      "why": "Universitetin liqada yarışır — hər ziyarətin ona xal qazandırır.",
+      "search": "Universitet axtar",
+      "members": "{{count}} üzv",
+      "none": "Universitetdə oxumuram",
+      "noneText": "Liqada iştirak etməyəcəksən, amma bütün questlər açıqdır.",
+      "empty": "Belə universitet tapılmadı",
+      "emptyText": "Başqa ad və ya qısaltma ilə axtar.",
+      "groupLabel": "Dost qrupu kodun var?",
+      "groupPlaceholder": "NAR-2026",
+      "groupJoin": "Qoşul",
+      "groupJoined": "“{{name}}” qrupuna qoşuldun",
+      "groupNotFound": "Bu kodla qrup tapılmadı",
+      "groupDemo": "Demo kod: NAR-2026"
+    },
+    "character": {
+      "title": "Qəhrəmanını seç",
+      "subtitle": "Hər qəhrəmanın öz gücü var. Sonra profilindən dəyişə bilərsən.",
+      "perk": "Güc",
+      "select": "Bu qəhrəmanı seç",
+      "goTo": "{{name}} qəhrəmanına keç",
+      "carousel": "Qəhrəmanlar"
+    },
+    "permissions": {
+      "title": "Bir neçə icazə",
+      "subtitle": "İstəmədiyini sonra da verə bilərsən — tətbiq onlarsız da işləyir.",
+      "camera": "Kamera",
+      "cameraText": "Eksponatların yanındakı QR kodları skan etmək üçün.",
+      "location": "Məkan",
+      "locationText": "Yalnız yaxınlıqdakı muzeyləri göstərmək üçün — təsdiq üçün istifadə olunmur.",
+      "notifications": "Bildirişlər",
+      "notificationsText": "Co-Op dəvətləri, liqa nəticələri və yeni mövsüm questləri.",
+      "allow": "İcazə ver",
+      "granted": "İcazə verildi",
+      "denied": "Rədd edildi — brauzer ayarlarından aça bilərsən",
+      "unsupported": "Bu cihazda dəstəklənmir"
+    }
+  },
+  "tutorial": {
+    "title": "Təlim questi",
+    "step1Title": "Quest pinini tap",
+    "step1Text": "Xəritədə parlayan pinlər aktiv questlərdir. Xalça Muzeyinin pininə toxun.",
+    "pinLabel": "Azərbaycan Xalça Muzeyi pini",
+    "step2Title": "Questi oxu",
+    "step2Text": "Hər questin hekayəsi, addımları və mükafatı var.",
+    "questName": "İlk Addım",
+    "questMuseum": "Azərbaycan Xalça Muzeyi",
+    "questStory": "Muzeyin girişində qızılı buta naxışlı bir lövhə səni gözləyir. Onu tap və üzərindəki kodu skan et — macəran buradan başlayır!",
+    "questSteps": "1 skan · 1 dəqiqə",
+    "startQuest": "Questi başlat",
+    "step3Title": "Demo kodu skan et",
+    "step3Text": "Real muzeydə kamerani QR koda tutacaqsan. İndi demo kodla sınayaq.",
+    "scan": "Demo kodu skan et",
+    "scanning": "Skan edilir…",
+    "step4Title": "Mükafat qazandın!",
+    "step4Text": "Hər skan, quiz və quest səni növbəti səviyyəyə yaxınlaşdırır.",
+    "badge": "Nişan: Yeni Gəzgin",
+    "finish": "Macəraya başla",
+    "skip": "Təlimi keç"
+  },
+  "home": {
+    "greeting": "Salam, {{name}}!",
+    "guestGreeting": "Salam, qəhrəman!",
+    "subtitle": "Bu gün hansı tarixi kəşf edəcəksən?",
+    "yourHero": "Sənin qəhrəmanın",
+    "guestBanner": "Qonaq kimi gəzirsən. XP və kolleksiya qazanmaq üçün hesab yarat.",
+    "nextPhase": "Questlər və xəritə hazırlanır",
+    "nextPhaseText": "Tezliklə burada aktiv questlər, yaxındakı muzeylər və mövsüm tədbirləri olacaq."
+  },
+  "placeholder": {
+    "map": "Xəritə",
+    "league": "Liqa",
+    "scan": "QR Skan",
+    "notifications": "Bildirişlər",
+    "quests": "Questlər",
+    "collection": "Kolleksiya",
+    "friends": "Dostlar",
+    "shop": "Mağaza",
+    "settings": "Tənzimləmələr",
+    "museum": "Muzey",
+    "text": "Bu bölmə növbəti mərhələdə əlavə olunacaq."
+  },
+  "profile": {
+    "joined": "Qoşulub: {{date}}",
+    "totalXp": "Ümumi XP",
+    "streak": "Seriya",
+    "badges": "Nişanlar",
+    "signOut": "Çıxış",
+    "signedOut": "Hesabdan çıxdın",
+    "guestTitle": "Qonaq profili",
+    "guestText": "Profil, kolleksiya və liqa yeri üçün hesab yarat."
+  }
+}

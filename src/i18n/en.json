@@ -1,0 +1,6 @@
+{
+  "app": { "name": "Visit-to-Earn", "tagline": "Play the museum. Earn history.", "desktopHint": "Open on your phone for the best experience" },
+  "common": { "continue": "Continue", "skip": "Skip", "back": "Back", "later": "Later", "close": "Close", "retry": "Try again", "loading": "Loading…", "or": "or", "more": "Details", "comingSoon": "Coming soon", "error": "Something went wrong. Check your connection and try again." },
+  "nav": { "label": "Main navigation", "home": "Home", "map": "Map", "scan": "Scan", "league": "League", "profile": "Profile" },
+  "placeholder": { "text": "This section will be added in a later phase." }
+}

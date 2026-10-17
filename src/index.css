@@ -1,0 +1,87 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Nunito Variable', ui-sans-serif, system-ui, sans-serif;
+
+  --color-bg: #0b1f3a;
+  --color-surface: #12294a;
+  --color-surface-2: #1a3560;
+  --color-primary: #19b5c7;
+  --color-gold: #f2b84b;
+  --color-nar: #c8283b;
+  --color-nar-soft: #ff6b7d;
+  --color-success: #2e9e5b;
+  --color-ivory: #f5f1e6;
+  --color-muted: #9fb0c8;
+  --color-rarity-common: #9fb0c8;
+  --color-rarity-rare: #19b5c7;
+  --color-rarity-epic: #a85cf0;
+  --color-rarity-legendary: #f2b84b;
+
+  --animate-shake: shake 0.4s ease-in-out;
+  --animate-scan-line: scan-line 2s ease-in-out infinite;
+  --animate-pulse-ring: pulse-ring 1.8s ease-out infinite;
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-6px); }
+    40%, 80% { transform: translateX(6px); }
+  }
+  @keyframes scan-line {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(var(--scan-distance, 180px)); }
+  }
+  @keyframes pulse-ring {
+    0% { transform: scale(0.8); opacity: 0.8; }
+    100% { transform: scale(2.2); opacity: 0; }
+  }
+}
+
+/* Spec token aliases (--bg, --surface, ...) for non-Tailwind consumers */
+:root {
+  --bg: var(--color-bg);
+  --surface: var(--color-surface);
+  --surface-2: var(--color-surface-2);
+  --primary: var(--color-primary);
+  --gold: var(--color-gold);
+  --nar: var(--color-nar);
+  --success: var(--color-success);
+  --text: var(--color-ivory);
+  --muted: var(--color-muted);
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-[#06142a] font-sans text-ivory antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+  button,
+  [role='button'] {
+    cursor: pointer;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
